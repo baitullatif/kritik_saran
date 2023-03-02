@@ -8,47 +8,65 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
-    <title>muzadidil belajar</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>Kritik dan Saran</title>
   </head>
   <!-- NAV BAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
     <div class="container">
-      <a class="navbar-brand" href="#">Muzadidil</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">Baitullatif</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Format</a>
-          <a class="nav-link" href="#">Webreport</a>
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Isi Kotak Suara</a>
+          </li>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
-
+  <!-- jumbotron -->
+  <div class="jumbotron">    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,128L40,154.7C80,181,160,235,240,213.3C320,192,400,96,480,90.7C560,85,640,171,720,186.7C800,203,880,149,960,128C1040,107,1120,117,1200,149.3C1280,181,1360,235,1400,261.3L1440,288L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+    <form>
+  </div>
+  <!-- akhir jumbotron -->
+  
+  
   <body>
-    <h1 class="text-center">PEMBELAJARAN AEMITRA</h1>
+    <h1 class="text-center">KRITIK dan SARAN</h1>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- form -->
-    <form>
-      <div class="col-md-6">
-        <label for="name" class="form-label">Nama Lengkap</label>
-        <input type="text" class="form-control" id="name" aria-describedby="Nama Lengkap" />
-      </div>
-      <div class="col-md-6">
-        <label for="emali" class="email">Email</label>
-        <input type="email" class="form-control" id="email" aria-describedby="email" />
-      </div>
-      <div class="col-md-6">
-        <label for="pesan" class="pesan">pesan</label>
-        <textarea class="form-control" id="pesan" rows="3"></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form>
+        <div class="col-md-9">
+          <label for="name" class="form-label">Nama Lengkap</label>
+          <input type="text" class="form-control" id="name" aria-describedby="Nama Lengkap" />
+        </div>
+        <div class="col-md-9">
+          <label for="emali" class="email">Email</label>
+          <input type="email" class="form-control" id="email" aria-describedby="email" />
+        </div>
+        <div class="col-md-9">
+          <label for="pesan" class="pesan">pesan</label>
+          <textarea class="form-control" id="pesan" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim</button>
+      </form>
+    </div>
+  </div>
   </body>
 </html>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,128L40,154.7C80,181,160,235,240,213.3C320,192,400,96,480,90.7C560,85,640,171,720,186.7C800,203,880,149,960,128C1040,107,1120,117,1200,149.3C1280,181,1360,235,1400,261.3L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
